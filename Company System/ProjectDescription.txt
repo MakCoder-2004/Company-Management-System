@@ -1,0 +1,93 @@
+
+================================================================================
+++++++++++++++++++++++++++ Company System Description ++++++++++++++++++++++++++
+================================================================================
+
+########## Classes ##########
+
+- Person Class
+
+	Variables:
+		FirstName
+		LastName
+		BirthDate
+		PhoneNumber
+
+	Function:
+		FullName
+
+
+
+- Employee Class
+
+	functions:
+		Insert
+		Update
+		Delete
+		Search
+		ShowAll
+		print
+
+	Variables:
+		Email
+		Password
+		PassHint
+		Department
+		Sallary
+
+
+
+- Tasks Class
+
+	Functions:
+		SendTasksToEmployees -> by Email
+		SeeAllTasks -> For Adminstrator only
+		SeeTasks -> For Employee
+
+	Variable:
+		Topic
+		Body
+		Deadline
+
+
+
+
+- Regestration Class
+
+	Functions:
+		EnterEmailAndPassword 
+			-> if user typed the password wrong
+				-> PassHint pushed
+					-> you choose btw EnterEmailAndPassword or ForgetPassword
+
+		ForgetPassword 
+			-> type phone number to confirm the employee
+				-> if correct
+					-> clsEmployee::UpdateFunc
+
+
+
+########## UI Menues ##########
+
+
+- Main Menue
+
+	) Login 
+	) About
+	) Exit
+
+
+
+- Adminstrator Menue
+	
+	:: Regestration Functions
+	:: Employee Fuctions
+	:: Tasks Functions
+		
+
+
+- Employee Menue
+
+	:: Regestration Functions	
+	:: Tasks Functions	=> SeeTasksOnly
+	:: Employee Functions => Seeinfo and update Only
