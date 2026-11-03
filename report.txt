@@ -1,0 +1,21 @@
+Company Management System
+========================
+
+This project is a C++ console application for managing employees and their assigned tasks in a small company. It provides separate administrator and employee menus, reached through a text-based login screen, as well as a short project description in the main menu.
+
+Administrator features
+----------------------
+- List employees and view their salary details and total salaries.
+- Search for an employee by ID.
+- Add, update, or delete employee records.
+- Apply salary bonuses or deductions.
+- Assign a task to an employee with a topic, description, and deadline.
+
+Employee features
+-----------------
+- View and update personal information.
+- View tasks assigned to the employee.
+
+Data and limitations
+--------------------
+Employee records are read from and written to the local EmployeesFile.txt file; tasks are stored in TasksFile.txt. This is a simple, file-based console project, not a web or networked management service. The current implementation includes a hard-coded administrator login and stores employee passwords in the local records without encryption, so it should be treated as a learning/demo project rather than a secure production system.
