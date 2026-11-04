@@ -1,0 +1,6 @@
+{
+  "setup": [],
+  "checks": {
+    "test": "git diff --check \"$(git merge-base HEAD origin/HEAD)\" HEAD && test -s PROJECT_STRUCTURE.md"
+  }
+}
